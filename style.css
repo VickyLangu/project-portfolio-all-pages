@@ -11,7 +11,7 @@ body {
 }
 .logo {
   max-height: 50px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 nav {
   display: flex;
@@ -179,14 +179,31 @@ h4 {
     padding: 0;
     text-align: center;
   }
+
+  .containers {
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  .container {
+    padding: 0;
+  }
   .content-container {
     text-align: center;
     padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow-x: hidden;
   }
+
   .email-link {
     font-size: 15px;
   }
-  /* .btn {
-    font-size: 18px;
-  } */
+
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 45px;
+    margin-left: 2px;
+  }
 }
